@@ -27,6 +27,7 @@ body {
 
 ::placeholder {
     font-style: italic;
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: rgb(110, 110, 110);
 }
 
@@ -74,11 +75,6 @@ input, textarea, select {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
     color: rgb(235, 235, 235);
-}
-
-input:focus {
-    border-color: rgb(33, 78, 150);
-    outline: 0;
 }
 
 input:focus, textarea:focus, select:focus {
